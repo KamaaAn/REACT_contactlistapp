@@ -1,0 +1,81 @@
+
+/*============main styles body=============*/
+
+body {
+    background: linear-gradient(to bottom right, #6ed3cf, #299894);
+    font-family: 'Montserrat', sans-serif;
+    color: #e1e8f0;
+}
+
+/*========form style===============*/
+
+form.contactForm {
+    text-align: center;
+    padding-top: 5%;
+}
+
+input {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    margin: 0.5% 0;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+}
+
+button {
+    font-size: 20px;
+    font-weight: 300;
+    border: none;
+    padding: 0.7em 4em;
+    background-color: #9068be;
+    color: #e1e8f0;
+    margin: 5% 0;
+    cursor: pointer;
+}
+
+a.contactEmail {
+    color: #D5F9F8;
+}
+
+/*===============Contact list style==================*/
+
+ul.contactsList {
+    text-align: center;
+    background: #58b5b1;
+    padding: 0;
+    margin: 0 2%;
+    border-radius: 2%;
+    margin-bottom: 5%;
+}
+
+.contactItem {
+    padding: 5% 0;
+}
+
+.contactItem p {
+    line-height: 1;
+    margin: 0.5em;
+}
+
+img.contactImage {
+    width: 40%;
+}
+
+/*+++++++++++++ Medium Devices, Desktops ++++++++++++++++*/
+
+@media only screen and (min-width : 1024px) {
+
+    form.contactForm {
+        text-align: center;
+        width: 40%;
+    }
+
+    ul.contactsList {
+        width: 40%;
+    }
+
+    input {
+        margin: 0.5% 5%;
+    }
+}   
